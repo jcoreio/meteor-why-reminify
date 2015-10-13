@@ -8,7 +8,7 @@ Package.describe({
 Package.registerBuildPlugin({
   name: "why-reminify",
   use: [
-    'minifiers'
+    'minifiers@1.1.7'
   ],
   npmDependencies: {
     "source-map": "0.4.2"
