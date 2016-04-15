@@ -1,6 +1,6 @@
 Package.describe({
   name: 'mindfront:why-reminify',
-  version: '1.0.0',
+  version: '1.0.1',
   summary: 'standard-minifiers fork that leaves .min.js files untouched',
   documentation: 'README.md'
 });
