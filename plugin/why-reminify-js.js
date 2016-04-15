@@ -33,7 +33,7 @@ UglifyJSMinifier.prototype.processFilesForBundle = function (files, options) {
 
   var allJs = '';
   files.forEach(function (file) {
-    if (/\.min\.js$/.test(file.getPathInBundle())) {
+    if (/\.min(\.es5)?\.js$/.test(file.getPathInBundle())) {
       allJs += file.getContentsAsString();
     }
     else {
